@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
  //   let num = req.query.number;
-    async function TREND_X_PAIR_CODE() {
+    async function NAPPIER_XMD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -72,9 +72,9 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "trend-x~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, TREND-X User!* 👋🏻
+                        let desc = `*Hey there, NAPPIER-XMD User!* 👋🏻
 
-Thanks for using *TREND-X* — your session has been successfully created!
+Thanks for using *NAPPIER-XMD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -87,19 +87,19 @@ https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/trendex2030/TREND-X
+https://github.com/nappier1/NAPPIER-XMD
 
 ——————
 
-> *© Powered by trendex King*
+> *© Powered by kathara King*
 Stay cool and hack smart. ✌🏻`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TREND-X 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
-thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O",
+title: "NAPPIER-XMD 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉",
+thumbnailUrl: "https://files.catbox.moe/ehk185.png",
+sourceUrl: "wa.me/254116141363"
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -108,9 +108,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Hey there, TREND-X User!* 👋🏻
+                            let desc = `*Hey there, NAPPIER-XMD User!* 👋🏻
 
-Thanks for using *TREND-X* — your session has been successfully created!
+Thanks for using *NAPPIER-XMD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -122,17 +122,17 @@ Join our official WhatsApp Channel:
 https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/trendex2030/TREND-X
+https://github.com/nappier1/NAPPIER-XMD
 
-> *© Powered by trendex King*
+> *© Powered by Kathara "napkid"😂😅*
 Stay cool and hack smart. ✌🏻*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TREND-X 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
-thumbnailUrl: "https://files.catbox.moe/adymbp.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6b7ZdF6sn4Vmjf2X1O",
+title: "NAPPIER-XMD 𝕮𝖔𝖓𝖓𝖊𝖈𝖙𝖊𝖉 ✅  ",
+thumbnailUrl: "https://files.catbox.moe/ehk185.png",
+sourceUrl: "wa.me/254116141363",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -149,7 +149,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    TREND_X_PAIR_CODE();
+                    NAPPIER_XMD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -160,7 +160,7 @@ showAdAttribution: true
             }
         }
     }
-    await TREND_X_PAIR_CODE();
+    await NAPPIER_XMD_PAIR_CODE();
 });
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");

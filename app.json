@@ -1,9 +1,9 @@
 {
     "name": "pair session",
     "description": "Web Session Generator",
-    "logo": "https://files.catbox.moe/adymbp.jpg",
-    "repository": "https://github.com/trendex2030/TRENDXMD-PAIR",
-    "keywords": ["Bravo","trendex"],
+    "logo": "https://files.catbox.moe/ehk185.png",
+    "repository": "https://github.com/nappier1/kathara_session",
+    "keywords": ["Kathara","Nappier"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      

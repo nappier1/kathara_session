@@ -58,6 +58,6 @@ Generate session IDs for WhatsApp bots using [`@whiskeysockets/baileys`](https:/
   </a>
 </p>
 
-📬 [`Contact on WhatsApp`](https://wa.me/
+📬 [`Contact on WhatsApp`](https://wa.me/+254116141363
 
 ---
